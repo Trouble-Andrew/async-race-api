@@ -25,6 +25,13 @@ const db = {
       id: 4,
     },
   ],
+  winners: [
+    {
+      id: 1,
+      wins: 1,
+      time: 10,
+    },
+  ],
 };
 
 const server = jsonServer.create();
