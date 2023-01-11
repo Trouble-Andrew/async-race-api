@@ -3,33 +3,24 @@ const cors = require('cors');
 const path = require('path');
 
 const db = {
-  garage: [
+  feedback: [
     {
-      name: 'Tesla',
-      color: '#e6e6fa',
       id: 1,
+      rating: 10,
+      user_name: 'Tony Stark',
+      text: 'You are the ironman of this world',
     },
     {
-      name: 'BMW',
-      color: '#fede00',
       id: 2,
+      rating: 9,
+      user_name: 'Bruce Wayne',
+      text: 'You are the batman of this world',
     },
     {
-      name: 'Mersedes',
-      color: '#6c779f',
       id: 3,
-    },
-    {
-      name: 'Ford',
-      color: '#ef3c40',
-      id: 4,
-    },
-  ],
-  winners: [
-    {
-      id: 1,
-      wins: 1,
-      time: 10,
+      rating: 8,
+      user_name: 'Peter Parker',
+      text: 'You are the spiderman of this world',
     },
   ],
 };
